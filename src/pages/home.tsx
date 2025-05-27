@@ -35,8 +35,9 @@ const Home = () => {
       period: `setembro de 2022 a março de 2023 | junho de 2023 até o
       presente
       `,
-      description:
-        `Principais atividades:
+      description: `
+      Principais atividades:
+      
       - Gerenciar time do contrato
       - Atualizar e enviar os boletins de medição ao cliente
       - Estabelecer e fortalecer relacionamento com o cliente
@@ -44,7 +45,7 @@ const Home = () => {
       - Fornecer informações do contrato à gestão regional da empresa
       - Planejar as atividades técnicas do contrato e suas equipes
       - Realizar o planejamento financeiro do contrato
-      `,
+    `,
     },
     {
       id: 3,
@@ -66,7 +67,7 @@ const Home = () => {
 
   const handleDownloadCV = (): void => {
     const link = document.createElement("a")
-    link.href = '/public/CURRÍCULUM VITAE - RODRIGO CAVALCANTI.pdf'
+    link.href = '/CURRÍCULUM VITAE - RODRIGO CAVALCANTI.pdf'
     link.download = "curriculo.pdf"
     link.click()
   }
@@ -162,7 +163,9 @@ const Home = () => {
                     </span>
                   </div>
                 </div>
-                <p className="text-gray-600 leading-relaxed">{experience.description}</p>
+                <p className="text-gray-600 leading-relaxed whitespace-pre-line mt-4">
+                  {experience.description}
+                </p>
               </div>
             ))}
           </div>
