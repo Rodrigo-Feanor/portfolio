@@ -1,4 +1,3 @@
-import type React from "react"
 import img1 from "../assets/111.jpeg"
 import img2 from "../assets/222.jpeg"
 import img3 from "../assets/333.jpeg"
