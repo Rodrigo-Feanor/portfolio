@@ -81,7 +81,7 @@ const Home = () => {
                 Olá, eu sou um <span className="text-primary-600">Analista de Sistemas</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Um profissional com habilidades analiticas e experiencia em traduzir informaçoes complexas em soluçoes efetivas
+                Um profissional com habilidades analiticas e experiencia em traduzir informaçoes complexas em soluçoes efetivas.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link to="/projetos" className="btn-primary">
@@ -145,9 +145,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Experiências Profissionais</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Minha jornada profissional construindo soluções digitais inovadoras
-            </p>
+            
           </div>
 
           <div className="space-y-8">

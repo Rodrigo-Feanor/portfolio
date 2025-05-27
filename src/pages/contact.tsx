@@ -125,7 +125,7 @@ const Contact = () => {
               <h3 className="text-lg font-medium text-gray-900 mb-4">Redes Sociais</h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/Rodrigo-Feano"
+                  href="https://github.com/Rodrigo-Feanor"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-gray-800 text-white rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors duration-200"
