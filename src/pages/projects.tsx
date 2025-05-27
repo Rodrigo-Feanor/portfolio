@@ -1,5 +1,3 @@
-"use client"
-
 import type React from "react"
 import im11 from "../assets/222.jpeg"
 
